@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Grids</title>
+    <style>
+        html{
+       font-size: 62.5%;
+}
+body{
+   background: #45567d;
+}
+section{
+   padding: 10rem 2rem;
+   max-width: 1600px;
+ 
+   margin: 0 auto;
+}
+.gridContainer{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-gap: 4rem;
+   justify-content: center;
+}
+.project-tile{
+   width:100%;
+   background: #303841;
+       box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+       border-radius: 2px;
+       text-decoration: none;
+       color: #ffffff;
+}
+.project-image{
+   width: 100%;
+   height: calc(100% - 6.8rem);
+   object-fit: cover;
+}
+.project-title{
+   text-align: center;
+   font-size: 2rem;
+   padding: 2rem 0.5rem;
+}
+.code{
+   color: #303841;
+   transition: color 0.3s ease-out;
+}
+.project-tile:hover .code{
+   color: #be3144;
+}
+@media (max-width:1440px) {
+   .gridContainer {
+       grid-template-columns: 1fr 1fr 1fr;
+   }
+  
+}
+@media  (max-width:1024px){
+   .gridContainer {
+       grid-template-columns: 1fr 1fr;
+   }
+}
+@media (max-width:556px) {
+   .gridContainer {
+       grid-template-columns: 1fr;
+   }
+}
+    </style>
+</head>
+<body>
+    <section>
+        <div class='gridContainer'>
+            <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" target="_blank" class="project project-tile">
+                <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
+                    alt="project">
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                    Tribute Page
+                    <span class="code">/&gt;</span>
+                </p>
+            </a>
+            <a href="https://codepen.io/freeCodeCamp/full/qRZeGZ" target="_blank" class="project project-tile">
+                <img class="project-image"
+                    src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png" alt="project">
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                    Random Quote Machine
+                    <span class="code">/&gt;</span>
+                </p>
+            </a>
+            <a href="https://codepen.io/freeCodeCamp/full/wgGVVX" target="_blank" class="project project-tile">
+                <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png"
+                    alt="project">
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                    JavaScript Calculator
+                    <span class="code">/&gt;</span>
+                </p>
+            </a>
+            <a href="https://codepen.io/freeCodeCamp/full/mVEJag" target="_blank" class="project project-tile">
+                <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg"
+                    alt="project">
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                    Map Data Across the Globe
+                    <span class="code">/&gt;</span>
+                </p>
+            </a>
+            <a href="https://codepen.io/freeCodeCamp/full/wGqEga" target="_blank" class="project project-tile">
+                <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png"
+                    alt="project">
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                    Wikipedia Viewer
+                    <span class="code">/&gt;</span>
+                </p>
+            </a>
+            <a href="https://codepen.io/freeCodeCamp/full/KzXQgy" target="_blank" class="project project-tile">
+                <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png"
+                    alt="project">
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                    Tic Tac Toe Game
+                    <span class="code">/&gt;</span>
+                </p>
+            </a>
+        
+        </div>
+        </section>
+</body>
+</html>
