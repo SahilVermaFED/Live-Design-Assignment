@@ -1,117 +1,172 @@
-* {
-    padding: 0;
-    margin: 0;
+*{
+    margin: 0%;
     box-sizing: border-box;
+    padding: 0%;
 }
 
-body {
-    width: 1280px;
-    height: 790px;
-    border: 2px solid black;
-    margin: 0 auto;
-
-
-}
-
-.section-1 {
+.header{
+    width: 1080px;
     display: flex;
+    height: 27px;
+    margin-top: 52px;
+    margin-left: 100px;
     justify-content: space-between;
-    margin: 47px 100px 0;
+    
+    
 }
-
-.foodmenu {
+.subheader{
     display: flex;
-    gap: 60px;
-    margin: 0 350px 0 0;
+    justify-content:space-between;
+    width: 400px;
+    
+    
+    
+    
+}
+.subheader>div{
+    margin: 5px;
+}
+.cart{
+     width: 20px;
+     height: 22px;
+    
+    
+    
 }
 
-.roundgreenbackground {
-    width: 1200px;
-    height: 1200px;
-    border-radius: 50%;
-    background-color: #CCFFCC;
-    margin: -720px 0 283px 283px;
-    z-index: 1;
+.img{
+    width: 105px;
 }
-
-.section-3 {
-    display: flex;
-    flex-direction: column;
-    margin: -625px 0 0 100px;
+.background{
+    width: 1177px;
+height: 1177px;
+flex-shrink: 0;
+border-radius: 1177px;
+background: #FFEEDE;
+margin: -820px 0 450px 450px;
 }
-
-.ruppees {
-    color: #54BF29;
-    font-size: 44px;
-    font-family: Poppins;
-    font-weight: 600;
-    text-transform: capitalize;
-    margin-top: 160px;
+.dollar{
+color: #FF922C;
+font-family: Poppins;
+font-size: 44px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
 }
-
-.salad {
-    width: 300px;
+.green{
     color: #333;
-    font-size: 36px;
-    font-family: Poppins;
-    font-weight: 500;
-    line-height: 50px;
-    text-transform: capitalize;
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: 50px; /* 138.889% */
+text-transform: capitalize;
+width: 367px;
 }
 
-.content {
+.content{
+    color: #333;
+font-family: Poppins;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+width: 347px;
+}
+.order{
+    color: #FFF;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+margin: 14px 35px;
+width: 100px;
+background: none;
+border: none;
+}
+
+.orderbackground{
+    width: 163px;
+height: 48px;
+flex-shrink: 0;
+border-radius: 69px;
+background: #FF922C;
+box-shadow: 0px 20px 40px 0px #F4E2D1;
+margin-top: 42px;
+}
+.article{
+    margin-left: 121px;
+    margin-top: -511px
+}
+
+
+.photo{
     display: flex;
-    width: 290px;
-    flex-direction: column;
+}
+
+.image{
+    width: 786.557px;
+height: 521.392px;
+flex-shrink: 0;
+
+
+
+}
+
+.photo1{
+    width: 250px;
+    height: 170px;
+    margin-left: 452px;
+    margin-top: -899px;
+    margin-bottom: 366px;
+    
+}
+.photo2{
+    width: 200px;
+    height: 120px;
     flex-shrink: 0;
-    color: #333;
-    font-size: 13px;
-    font-family: Poppins;
-    text-transform: capitalize;
+    margin-left: 470px;
+    margin-top: -899px;
+    margin-bottom: 600px;
+    
+    
 }
 
-.ordernow {
-    color: white;
-    font-size: 13px;
-    font-family: Poppins;
-    font-weight: 700;
-    text-transform: capitalize;
-    padding: 14px 41px;
-    background-color: #54BF29;
-    border-radius: 60px;
-    margin: 28px 0;
-    border: none;
-}
-
-.image-spin {
-    width: 786.56;
-    height: 521.39;
-    left: 479.71px;
-    top: 263.73;
-}
-
-.img1 {
+.photo3{
     width: 102px;
     height: 136px;
-    transform: rotate(-95.65deg);
-}
-
-.img2 {
-    transform: rotate(-35.73deg);
+    transform: rotate(-59.921deg);
     flex-shrink: 0;
-}
+    margin-left: 340px;
+    margin-top: -899px;
+    margin-bottom: 550px;
 
-.img3 {
+}
+.photo4{
+    width: 167.568px;
+    height: 113.222px;
     transform: rotate(88.953deg);
+    flex-shrink: 0;
+    margin-left: 740px;
+    margin-top: -899px;
+    margin-bottom: 550px;
 }
-
-.img4{
-    transform: rotate(-35.73deg);
+.photo5{
+    width: 118.873px;
+    height: 116.858px;
+    flex-shrink: 0;
+    margin-left: 290px;
+    margin-top: -899px;
+    margin-bottom: 690px;
 }
-
-.img5{
+.photo6{
     width: 213px;
-    height: 220px;  
+height: 220px;
+flex-shrink: 0;
 }
 
 .image-circle {
